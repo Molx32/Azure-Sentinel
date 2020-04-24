@@ -1,0 +1,89 @@
+{
+    "properties": {
+        "d": {
+            "properties": {
+                "results": {
+                    "items": {
+                        "properties": {
+                            "EndDate": {
+                                "type": [ "string", "null" ]
+                            },
+                            "FromIP": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Index": {
+                                "type": "integer"
+                            },
+                            "MessageId": {
+                                "type": [ "string", "null" ]
+                            },
+                            "MessageTraceId": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Organization": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Received": {
+                                "type": [ "string", "null" ]
+                            },
+                            "RecipientAddress": {
+                                "type": [ "string", "null" ]
+                            },
+                            "SenderAddress": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Size": {
+                                "type": "integer"
+                            },
+                            "StartDate": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Status": {
+                                "type": [ "string", "null" ]
+                            },
+                            "Subject": {
+                                "type": [ "string", "null" ]
+                            },
+                            "ToIP": {},
+                            "__metadata": {
+                                "properties": {
+                                    "id": {
+                                        "type": [ "string", "null" ]
+                                    },
+                                    "type": {
+                                        "type": [ "string", "null" ]
+                                    },
+                                    "uri": {
+                                        "type": [ "string", "null" ]
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "required": [
+                            "__metadata",
+                            "Organization",
+                            "MessageId",
+                            "Received",
+                            "SenderAddress",
+                            "RecipientAddress",
+                            "Subject",
+                            "Status",
+                            "ToIP",
+                            "FromIP",
+                            "Size",
+                            "MessageTraceId",
+                            "StartDate",
+                            "EndDate",
+                            "Index"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}
